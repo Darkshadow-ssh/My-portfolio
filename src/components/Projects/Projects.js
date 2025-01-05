@@ -47,7 +47,7 @@ function Projects() {
               title="Profile Site"
               description="Personal profile website showcasing my portfolio, skills, and projects. The site includes detailed sections about my technical expertise, educational background, and professional experience. Features an interactive UI with smooth navigation, responsive design, and a dark mode toggle for better user experience.  Integrated contact form for easy communication, with backend support for email notifications."
               ghLink="https://github.com/Darkshadow-ssh/Sarthak_Profile"
-              demoLink="https://profile-l4re0nuom-sarthak-chauhans-projects-9150ae34.vercel.app/"              
+              demoLink="https://sarthak-profile.vercel.app/"              
             />
           </Col>
         </Row>
