@@ -15,7 +15,7 @@ function AboutCard() {
             <br />
             I have completed BCA hons. in Cybersecurity at Lovely Professional University, Phagwara.
             <br />
-            I have successfully completed CompTIA Network+ and Security+ Certification.
+            I have successfully completed CompTIA Network+ and CompTIA Security+ Certification.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
