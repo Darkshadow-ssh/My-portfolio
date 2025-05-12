@@ -17,6 +17,9 @@ function AboutCard() {
             <br />
             I have successfully completed CompTIA Network+ and CompTIA Security+ Certification.
             <br />
+              </p>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="68ee6a8b-2759-46e9-ae8c-5b78e1cc2181" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          <p>
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
