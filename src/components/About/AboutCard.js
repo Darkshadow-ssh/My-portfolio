@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sarthak Chauhan </span>
             from <span className="purple"> Roorkee, India.</span>
             <br />
-            I am currently employed as a Technological Trainee at Physics Wallah IOI, Bangalore.
+            I am currently employed as a Technology Trainee at Physics Wallah IOI, Bangalore.
             <br />
             I have completed BCA hons. in Cybersecurity at Lovely Professional University, Phagwara.
             <br />
