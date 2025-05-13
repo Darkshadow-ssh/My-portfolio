@@ -2,6 +2,10 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
+// ✅ Importing the images
+import networkPlusImg from "../assets/n+.png";
+import securityPlusImg from "../assets/s+.png";
+
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -16,6 +20,18 @@ function AboutCard() {
             I have completed BCA hons. in Cybersecurity at Lovely Professional University, Phagwara.
             <br />
             I have successfully completed CompTIA Network+ and CompTIA Security+ Certification.
+            <br />
+            {/* ✅ Images inserted here */}
+            <img
+              src={networkPlusImg}
+              alt="CompTIA Network+"
+              style={{ height: "100px", marginRight: "10px", marginTop: "10px" }}
+            />
+            <img
+              src={securityPlusImg}
+              alt="CompTIA Security+"
+              style={{ height: "100px", marginTop: "10px" }}
+            />
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
