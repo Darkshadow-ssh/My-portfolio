@@ -3,8 +3,8 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 // ✅ Importing the images
-import networkPlusImg from "../Assets/n+.png";
-import securityPlusImg from "../Assets/s+.png";
+import networkPlusImg from "../../Assets/n+.png";
+import securityPlusImg from "../../Assets/s+.png";
 
 function AboutCard() {
   return (
