@@ -1,8 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-import nPlusImage from "../assets/n+.png";
-import sPlusImage from "../assets/s+.png";
 
 function AboutCard() {
   return (
@@ -18,38 +16,10 @@ function AboutCard() {
             I have completed BCA hons. in Cybersecurity at Lovely Professional University, Phagwara.
             <br />
             I have successfully completed CompTIA Network+ and CompTIA Security+ Certification.
-          </p>
-
-                 {/* Static badge images */}
-          <div
-            style={{
-              display: "flex",
-              gap: "7rem",
-              marginBottom: "1rem",
-              marginLeft: "8rem"
-            }}
-          >
-            <img
-              src={nPlusImage}
-              alt="CompTIA Network+ Badge"
-              width="150"
-              height="150"
-              style={{ borderRadius: "8px" }}
-            />
-            <img
-              src={sPlusImage}
-              alt="CompTIA Security+ Badge"
-              width="150"
-              height="150"
-              style={{ borderRadius: "8px" }}
-            />
-          </div>
-
-
-          <p style={{ textAlign: "justify" }}>
+            <br />
+            <br />
             Apart from coding, some other activities that I love to do!
           </p>
-
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing CTF Challenges
@@ -63,7 +33,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"
+            "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Sarthak</footer>
         </blockquote>
