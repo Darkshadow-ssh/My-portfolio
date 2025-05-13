@@ -25,12 +25,12 @@ function AboutCard() {
             <img
               src={networkPlusImg}
               alt="CompTIA Network+"
-              style={{ height: "100px", marginRight: "10px", marginTop: "10px" }}
+              style={{ height: "170px", marginRight: "80px", marginLeft: "140px", marginTop: "25px", marginBottom: "25px" }}
             />
             <img
               src={securityPlusImg}
               alt="CompTIA Security+"
-              style={{ height: "100px", marginTop: "10px" }}
+              style={{ height: "170px" }}
             />
             <br />
             <br />
