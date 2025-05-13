@@ -20,29 +20,31 @@ function AboutCard() {
             I have successfully completed CompTIA Network+ and CompTIA Security+ Certification.
           </p>
 
-         {/* 👇 Static badge images here */}
-<div
-  style={{
-    display: "flex",           // ✅ Required for `gap` to work
-    gap: "7rem",               // ✅ Now works
-    marginBottom: "1rem",
-    marginLeft: "8rem"
-  }}>
-  <img
-    src={nPlusImage}
-    alt="CompTIA Network+ Badge"
-    width="150"
-    height="150"
-    style={{ borderRadius: "8px" }}
-  />
-  <img
-    src={sPlusImage}
-    alt="CompTIA Security+ Badge"
-    width="150"
-    height="150"
-    style={{ borderRadius: "8px" }}
-  />
-</div>
+                 {/* Static badge images */}
+          <div
+            style={{
+              display: "flex",
+              gap: "7rem",
+              marginBottom: "1rem",
+              marginLeft: "8rem"
+            }}
+          >
+            <img
+              src={nPlusImage}
+              alt="CompTIA Network+ Badge"
+              width="150"
+              height="150"
+              style={{ borderRadius: "8px" }}
+            />
+            <img
+              src={sPlusImage}
+              alt="CompTIA Security+ Badge"
+              width="150"
+              height="150"
+              style={{ borderRadius: "8px" }}
+            />
+          </div>
+
 
           <p style={{ textAlign: "justify" }}>
             Apart from coding, some other activities that I love to do!
