@@ -21,7 +21,7 @@ function AboutCard() {
           </p>
 
           {/* 👇 Static badge images here */}
-          <div style={{ display: "flex", gap: "7rem", margin: "1rem 0", margin-left: "8rem" }}>
+          <div style={{ display: "flex", gap: "7rem", margin: "1rem", margin-left: "8rem" }}>
             <img
               src={nPlusImage}
               alt="CompTIA Network+ Badge"
