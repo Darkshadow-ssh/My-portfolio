@@ -1,15 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import nPlusImage from "../assets/n+.png";
+import sPlusImage from "../assets/s+.png";
 
 function AboutCard() {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "//cdn.credly.com/assets/utilities/embed.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
-
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -23,23 +18,24 @@ function AboutCard() {
             I have completed BCA hons. in Cybersecurity at Lovely Professional University, Phagwara.
             <br />
             I have successfully completed CompTIA Network+ and CompTIA Security+ Certification.
-            <br />
           </p>
 
-          {/* 👇 Add Credly badges here */}
-          <div style={{ display: "flex", gap: "1rem", marginBottom: "1rem" }}>
-            <div
-              data-iframe-width="150"
-              data-iframe-height="270"
-              data-share-badge-id="bc7afd4f-0c10-4a2d-8866-4e049ee3db22"
-              data-share-badge-host="https://www.credly.com"
-            ></div>
-            <div
-              data-iframe-width="150"
-              data-iframe-height="270"
-              data-share-badge-id="5082d455-c9d8-442f-8a27-47f517511c35"
-              data-share-badge-host="https://www.credly.com"
-            ></div>
+          {/* 👇 Static badge images here */}
+          <div style={{ display: "flex", gap: "1rem", margin: "1rem 0" }}>
+            <img
+              src={nPlusImage}
+              alt="CompTIA Network+ Badge"
+              width="150"
+              height="150"
+              style={{ borderRadius: "8px" }}
+            />
+            <img
+              src={sPlusImage}
+              alt="CompTIA Security+ Badge"
+              width="150"
+              height="150"
+              style={{ borderRadius: "8px" }}
+            />
           </div>
 
           <p style={{ textAlign: "justify" }}>
@@ -59,7 +55,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive to build things that make a difference!"
           </p>
           <footer className="blockquote-footer">Sarthak</footer>
         </blockquote>
